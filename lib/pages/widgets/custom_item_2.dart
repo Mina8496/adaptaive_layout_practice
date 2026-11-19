@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CustomItem2 extends StatelessWidget {
-  const CustomItem2({
-    super.key,
-  });
+  const CustomItem2({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 15,
+      height: 80,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(8),
