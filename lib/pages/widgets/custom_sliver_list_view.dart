@@ -7,6 +7,7 @@ class CustomSliverListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverList.builder(
+      itemCount: 15,
       itemBuilder: (context, index) {
         return CustomItem2();
       },
