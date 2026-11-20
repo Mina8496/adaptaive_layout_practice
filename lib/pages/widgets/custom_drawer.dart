@@ -1,3 +1,4 @@
+import 'package:adaptaive_layout_practice/pages/widgets/custom_drawer_item.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -10,6 +11,7 @@ class CustomDrawer extends StatelessWidget {
       child: Column(
         children: [
           DrawerHeader(child: FaIcon(FontAwesomeIcons.solidHeart, size: 68)),
+          CustomDrawerItem(),
         ],
       ),
     );
