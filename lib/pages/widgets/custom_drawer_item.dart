@@ -1,13 +1,14 @@
+import 'package:adaptaive_layout_practice/model/drawer_item_model.dart';
 import 'package:flutter/material.dart';
 
 class CustomDrawerItem extends StatelessWidget {
-  const CustomDrawerItem({super.key});
-
+   const CustomDrawerItem({super.key, required this.drawerItemModel});
+  final DrawerItemModel drawerItemModel;
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Icon(Icons.home),
-      title: Text("D a s h b o a r d"),
+      leading: Icon(drawerItemModel.icons),
+      title: Text(drawerItemModel.title),
     );
   }
 }
