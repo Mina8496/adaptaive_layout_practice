@@ -16,6 +16,8 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      backgroundColor: Color(0xffDBDBDB),
+      elevation: 0,
       child: Column(
         children: [
           DrawerHeader(child: FaIcon(FontAwesomeIcons.solidHeart, size: 68)),
