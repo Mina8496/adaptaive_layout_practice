@@ -20,7 +20,7 @@ class CustomDrawer extends StatelessWidget {
       elevation: 0,
       child: Column(
         children: [
-          DrawerHeader(child: FaIcon(FontAwesomeIcons.solidHeart, size: 68)),
+          DrawerHeader(child: FaIcon(FontAwesomeIcons.solidHeart, size: 56)),
           CustomDrawerItemListView(items: items),
         ],
       ),
