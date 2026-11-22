@@ -12,9 +12,9 @@ class HomePageBody extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: AdaptiveLayout(
-        mobileLayout: MobileLayout(),
-        tabletLayout: TablatLayout(),
-        desktopLayout: DesktopLayout(),
+        mobileLayout: (context) => MobileLayout(),
+        tabletLayout: (context) => TablatLayout(),
+        desktopLayout: (context) => DesktopLayout(),
       ),
     );
   }
