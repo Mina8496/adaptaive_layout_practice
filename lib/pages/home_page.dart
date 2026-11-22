@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
             backgroundColor: Colors.black,
             leading: IconButton(
               onPressed: () {
-                // scaffoldKey.currentState!.openDrawer();
+                scaffoldKey.currentState!.openDrawer();
               },
               icon: Icon(Icons.menu, color: Colors.white),
             ),
